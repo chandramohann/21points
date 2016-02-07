@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "21points",
+    "packageName": "nl.prowareness.health",
+    "packageFolder": "nl/prowareness/health",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "160f52888f225a3d879f22c59af2c218a02acaa8",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
